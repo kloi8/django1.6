@@ -1,0 +1,19 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <h3>Шутка, пошученная дважды - в два раза смешнее</h3>
+
+{{ flatpage.content }}
+
+<ul>
+
+{{ flatpage.content }}
+
+{% endblock content %}
+
